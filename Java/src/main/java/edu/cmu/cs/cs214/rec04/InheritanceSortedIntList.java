@@ -15,6 +15,7 @@ public class InheritanceSortedIntList extends SortedIntList {
     private int totalAdded;
 
     public InheritanceSortedIntList() {
+        super();
         totalAdded = 0;
     }
 
